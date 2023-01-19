@@ -2,11 +2,9 @@
 
 function DifferentNum($arr1, $arr2){
     $temp = [];
-    $result = [];
     foreach($arr1 as $value){
         $temp[$value] = $value;
     }
-
     foreach($arr2 as $value){
         if(!isset($temp[$value])){
             $temp[$value] = $value;
